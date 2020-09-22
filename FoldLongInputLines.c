@@ -5,7 +5,8 @@ program does something intelligent with very long lines, and if there are no bla
 before the specified column. */
 
 // I'm very pleased the way this program turned out. It is among the fewest lined 
-// examples of this exercise that I've seen and I did it without looking at anyone elses work
+// examples of this exercise that I've seen and I did it without looking at anyone elses work beforehand
+// The accomplishes the original goal and uses the least amount of variables and bloat I think is possible (at least for my current skill level.)
 
 
 #include <stdio.h>
