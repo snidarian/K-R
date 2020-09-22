@@ -4,6 +4,10 @@ the last non-blank character that occurs before the n-th column of input. Make s
 program does something intelligent with very long lines, and if there are no blanks or tabs
 before the specified column. */
 
+// I'm very pleased the way this program turned out. It is among the fewest lined 
+// examples of this exercise that I've seen and I did it without looking at anyone elses work
+
+
 #include <stdio.h>
 
 #define MAXINPUTLINELEN 30
