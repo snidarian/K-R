@@ -27,9 +27,9 @@ int main() {
     printf("CHAR_MIN    :   %d\n", CHAR_MIN);
     
     printf("\nINTEGERS\n------------------------------\n");
-    printf("INT_MAX     :   %d\n", INT_MAX); // Integers reach positively and negatively to 2147483648 (unsigned integers get an extra bit making it 32bits (2^32))
+    printf("INT_MAX     :   %d\n", INT_MAX); // Integers reach positively and negatively to 2,147,483,648 (unsigned integers get an extra bit making it 32bits (2^32))
     printf("INT_MIN     :   %d\n", INT_MIN); // Regular integers (depending on host machine) are 32 bit numbers (31 bits and one bit for the +/- sign)
-    printf("LONG_MAX    :   %ld\n", (long) LONG_MAX); // Regular long ints (which are signed) can reach +/-9223372036854775807 (63 bits plus one for the sign)
+    printf("LONG_MAX    :   %ld\n", (long) LONG_MAX); // Regular long ints (which are signed) can reach +/-9,223,372,036,854,775,807 (63 bits plus one for the sign)
     printf("LONG_MIN    :   %ld\n", (long) LONG_MIN); 
 
     printf("Short integers ");
@@ -38,7 +38,7 @@ int main() {
 
     printf("\nUNSIGNED regular, short and long integers. \n");
     printf("UINT_MAX    :   %u\n", (unsigned int) UINT_MAX); // 
-    printf("ULONG_MAX   :   %lu\n", (unsigned long) ULONG_MAX); // Long unsigned are the largest single data type with a max of 18446744073709551615 which is 2^64 (64 bit number)
+    printf("ULONG_MAX   :   %lu\n", (unsigned long) ULONG_MAX); // Long unsigned are the largest single data type with a max of 18,446,744,073,709,551,615 which is 2^64 (64 bit number)
     printf("USHRT_MAX   :   %d\n", (unsigned short) USHRT_MAX); // Unsigned short integers go to about 65k (again with a min value of ZERO)
 
 
