@@ -8,6 +8,7 @@ Additionally some files included in this repo are for future reference and effic
 
 #### Chapter 1
 - Exercise 1-1 - Helloworld.c
+- Exercise 1-2 - Helloworldexp.c
 - Exercise 1-22 - foldlonginputlines.c
 
 #### Chapter 2
