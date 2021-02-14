@@ -11,6 +11,7 @@ Additionally some files included in this repo are for future reference and effic
 - Exercise 1-22 - foldlonginputlines.c
 
 #### Chapter 2
+- Exercise 2-1 - limits_header.c
 - Exercise 2-4 - alt_squeeze.c
 
 
