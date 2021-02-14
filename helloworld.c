@@ -1,4 +1,4 @@
-// exercise 1-1
+// Exercise 1-1 of the K&R
 
 
 #include <stdio.h>
