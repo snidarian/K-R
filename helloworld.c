@@ -1,18 +1,24 @@
-// exercise 1-1 in the K&R
-// Write hello world program and then create errors in it by removing
-// various basic necessities in the program
-// obviously program takes one argument
+// exercise 1-1
+
 
 #include <stdio.h>
 
-int main(int argc, char **argv)
+int main()
 {
-printf("Hello, %s!\n", argv[1]);
+  printf("hello, ");
+  printf("world");
+  printf("\n");
+  
+  return 0;
 }
 
 
+/*
 
+What happens when you leave out individual parts of this hellow world program?
 
-
-
+"return 0;" - nothing happens as the main function implcitly returns 0 without needing it written.
+"int" return type in main function - Nothin happened in the program but the compiler raised a warning
+";" after printf function call - Would not compile due to "Error: expected ';' before 'printf'
+"#include <stdio.h>" - Raised warning but program still functioned as originally intended.
 
