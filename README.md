@@ -3,6 +3,13 @@ All original C programming creations based on Ritchie and Kerneghan's exercise p
 Additionally some files included in this repo are for future reference and efficient clarification on the capabilities of various header files.
 
 
+Exercises completed and included in repo:
+1. 
+2. 
+
+
+
+
 
 
 
