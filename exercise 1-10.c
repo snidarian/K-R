@@ -20,6 +20,7 @@ int main()
                 putchar('t');
             }
         }
+        // Couldn't get \b to register. I think because the Shell doesn't allow backspace to be an input chararacter.
         // this option can't work since shell doesn't send backpace char to program as valid input.
         else if (c == '\b')
             {
