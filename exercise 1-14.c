@@ -3,6 +3,10 @@
 
 #include <stdio.h>
 
+// In this program, I wasn't explicitly directed to, but I figured the only
+// characters in the Ascii table that this program is concerned with is characters are the int values 32-128
+// 32 is the first printable character (a space) and although 128 is the DEL button I included to keep the number 128 round looking
+// including an extra index value is harmless.
 
 // intialize array that will store the frequency of each char entered
 int charfreq[128];
