@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 
-
+// intialize array that will store the frequency of each char entered
 int charfreq[128];
 
 
