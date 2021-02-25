@@ -19,6 +19,7 @@ int main()
         
     while((c = getchar())!= EOF)
     {
+        // index is int value of c itself incrementing the value in charfreq at [c] index location for each successive press
         charfreq[c]+= 1;
     }
 
