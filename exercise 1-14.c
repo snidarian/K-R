@@ -27,7 +27,7 @@ int main()
     // 32 is beginning of printable ascii characters. 128 = delete key but left it at 128.
     for(i=32;i<128; i++)
     {
-        
+        // Only mention chars in output if they were pressed at least once. Otherwise assume their value to be zero
         if (charfreq[i] > 0)
         {
         printf("%c occurred %3d times\n", i, charfreq[i]);
