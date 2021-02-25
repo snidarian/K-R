@@ -46,6 +46,8 @@ int main()
         {
             printf("%c - ", i);
 
+            // At first I used a nested for loop instead to iterate with the j variable. But the strangest thing kept happening
+            // j kept being set exactly to the value in charfreq array at index [i]. It's still unexplicable to me why it happened
             j = 0;
             while(j < charfreq[i])
             {
