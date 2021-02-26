@@ -1,6 +1,8 @@
 // Exercise 1-15 from the K&R
 // "Rewrite the temmperature conversion program of section 1.2 to use a function for conversion"
 
+// Originally I had written this to take command line arguments that decided which temperature value to convert
+// however I scraped that in favor of strictly following the prompt.
 
 #include <stdio.h>
 
