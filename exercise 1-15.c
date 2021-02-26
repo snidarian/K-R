@@ -1,6 +1,7 @@
 // Exercise 1-15 from the K&R
 // "Rewrite the temmperature conversion program of section 1.2 to use a function for conversion"
 
+
 #include <stdio.h>
 
 
@@ -34,14 +35,6 @@ int main()
     }
 
 
-
-
     return 0;
 }
-
-
-
-
-
-
 
