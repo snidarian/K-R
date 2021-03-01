@@ -1,6 +1,15 @@
 #include <stdio.h>
 #define MAXLINE 1000
 
+/*
+The main problem I had with writing this bit:
+
+the name 'getline' for a function is already taken by a function in the stdlibrary so when I used
+the name getline() instead of what I'm using now 'grabline()' I got an namespace conflict error.
+
+*/
+
+// Name revised from getline() to grabline() due to naming conflict with stdlib header
 int grabline(char line[], int maxline);
 void copy(char to[], char from[]);
 
